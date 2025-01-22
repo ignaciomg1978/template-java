@@ -1,6 +1,6 @@
 {
   "name": "Java Spring Boot Environment with STS",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/maven:1": {
       "version": "latest"
