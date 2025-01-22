@@ -10,7 +10,7 @@
     }
   },
   "remoteEnv": {
-    "CR_PAT": "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"
+    "CR_PAT": "${{ secrets.CR_PAT }}"
   },
   "customizations": {
     "vscode": {
