@@ -9,6 +9,9 @@
       "version": "17"
     }
   },
+  "remoteEnv": {
+    "CR_PAT": "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"
+  },
   "customizations": {
     "vscode": {
       "settings": {
