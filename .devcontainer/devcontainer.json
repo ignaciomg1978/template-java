@@ -1,0 +1,62 @@
+{
+  "name": "Java Spring Boot Environment with STS",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/maven:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.home": "/usr/local/sdkman/candidates/java/current",
+        "spring-boot.ls.java.home": "/usr/local/sdkman/candidates/java/current",
+        "java.configuration.updateBuildConfiguration": "interactive",
+        "java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/main/eclipse-java-google-style.xml",
+        "java.format.settings.profile": "GoogleStyle",
+        "editor.formatOnSave": true,
+        "files.autoSave": "afterDelay",
+        "files.exclude": {
+          "target": true
+        }
+      },
+      "extensions": [
+        "42crunch.vscode-openapi",
+      "georgewfraser.vscode-javac",
+  "github.copilot",
+  "github.copilot-chat",
+  "github.vscode-github-actions",
+  "ms-vscode-remote.remote-containers",
+  "ms-vscode.live-server",
+  "redhat.fabric8-analytics",
+  "redhat.java",
+  "redhat.vscode-yaml",
+  "ryanluker.vscode-coverage-gutters",
+  "techer.open-in-browser",
+  "visualstudioexptteam.intellicode-api-usage-examples",
+  "visualstudioexptteam.vscodeintellicode",
+  "vmware.vscode-boot-dev-pack",
+  "vmware.vscode-spring-boot",
+  "vscjava.vscode-java-debug",
+  "vscjava.vscode-java-dependency",
+  "vscjava.vscode-java-pack",
+  "vscjava.vscode-java-test",
+  "vscjava.vscode-maven",
+  "vscjava.vscode-spring-boot-dashboard",
+  "vscjava.vscode-spring-initializr",
+  "walkme.java-extension-pack",
+  "pivotal.vscode-spring-boot",
+  "redhat.vscode-xml",
+  "editorconfig.editorconfig",
+  "streetsidesoftware.code-spell-checker",
+  "eamodio.gitlens",
+  "sonarsource.sonarlint-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "mvn -B dependency:resolve",
+  "remoteUser": "vscode"
+}
