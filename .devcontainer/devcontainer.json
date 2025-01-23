@@ -63,6 +63,6 @@
       ]
     }
   },
-  "postCreateCommand": "mkdir -p /workspaces/.lombok && curl -L https://projectlombok.org/downloads/lombok.jar -o /workspaces/.lombok/lombok.jar && mvn -B dependency:resolve && mvn clean install",
+  "postCreateCommand": "mkdir -p /workspaces/.lombok && curl -L https://projectlombok.org/downloads/lombok.jar -o /workspaces/.lombok/lombok.jar && mvn -B dependency:resolve",
   "remoteUser": "vscode"
 }
