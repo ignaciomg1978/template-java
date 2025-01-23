@@ -28,7 +28,7 @@ Este proyecto es una plantilla básica para aplicaciones Spring Boot, diseñada 
 - Mockito
 
 ## Requisitos
-- Java 17
+- Java 21
 - Maven
 
 ## Ejecutar los tests
