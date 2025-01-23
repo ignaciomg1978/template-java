@@ -5,7 +5,7 @@
 
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "17",
+      "version": "21",
       "installMaven": "true",
       "installGradle": "false"
     },
@@ -23,7 +23,7 @@
         "java.format.settings.profile": "GoogleStyle",
 		"java.configuration.runtimes": [
 				{
-					"name": "JavaSE-17",
+					"name": "JavaSE-21",
 					"path": "/usr/local/sdkman/candidates/java/current",
 					"default": true
 				}
@@ -63,6 +63,6 @@
       ]
     }
   },
-  "postCreateCommand": "mkdir -p /workspaces/.lombok && curl -L https://projectlombok.org/downloads/lombok.jar -o /workspaces/.lombok/lombok.jar && mvn -B dependency:resolve && echo 'Lombok descargado e instalado.'",
+  "postCreateCommand": "mkdir -p /workspaces/.lombok && curl -L https://projectlombok.org/downloads/lombok.jar -o /workspaces/.lombok/lombok.jar && mvn -B dependency:resolve && mvn clean install",
   "remoteUser": "vscode"
 }
