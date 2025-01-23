@@ -1,5 +1,5 @@
 {
-    "java.java.home": "/usr/local/sdkman/candidates/java/current",
+    "java.home": "/usr/local/sdkman/candidates/java/current",
     "spring-boot.ls.java.home": "/usr/local/sdkman/candidates/java/current",
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/main/eclipse-java-google-style.xml",
