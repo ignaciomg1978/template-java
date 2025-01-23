@@ -21,7 +21,7 @@
         "java.configuration.updateBuildConfiguration": "interactive",
         "java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/main/eclipse-java-google-style.xml",
         "java.format.settings.profile": "GoogleStyle",
-		"java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
+		"java.jdt.ls.vmargs": "-javaagent:/workspace/.lombok/lombok.jar",
         "editor.formatOnSave": true,
         "files.autoSave": "afterDelay",
         "files.exclude": {
@@ -61,9 +61,6 @@
       ]
     }
   },
-  "postCreateCommand": "mvn -B dependency:resolve && curl -Lo /usr/local/share/lombok/lombok.jar https://projectlombok.org/downloads/lombok.jar",
-  "mounts": [
-    "source=/usr/local/share/lombok,target=/usr/local/share/lombok,type=bind"
-  ],
+  "postCreateCommand": "mkdir -p /workspace/.lombok && curl -L https://projectlombok.org/downloads/lombok.jar -o /workspace/.lombok/lombok.jar && mvn -B dependency:resolve && echo 'Lombok descargado e instalado.'",
   "remoteUser": "vscode"
 }
