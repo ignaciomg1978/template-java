@@ -15,8 +15,5 @@
     "java.jdt.ls.vmargs": "-javaagent:/workspaces/.lombok/lombok.jar",
     "editor.formatOnSave": true,
     "files.autoSave": "afterDelay",
-    "files.exclude": {
-        "target": true
-    },
     "java.compile.nullAnalysis.mode": "automatic"
 }
