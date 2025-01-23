@@ -16,12 +16,20 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "java.home": "/usr/local/sdkman/candidates/java/current",
+        "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current",
         "spring-boot.ls.java.home": "/usr/local/sdkman/candidates/java/current",
         "java.configuration.updateBuildConfiguration": "interactive",
         "java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/main/eclipse-java-google-style.xml",
         "java.format.settings.profile": "GoogleStyle",
-		"java.jdt.ls.vmargs": "-javaagent:/workspaces/.lombok/lombok.jar",
+		"java.configuration.runtimes": [
+				{
+					"name": "JavaSE-17",
+					"path": "/usr/local/sdkman/candidates/java/current",
+					"default": true
+				}
+			],
+		"java.jdt.ls.lombokSupport.enabled": true,
+		"java.jdt.ls.vmargs": "-javaagent:/workspaces/.lombok/lombok.jar",		
         "editor.formatOnSave": true,
         "files.autoSave": "afterDelay",
         "files.exclude": {
@@ -49,15 +57,9 @@
 		"vscjava.vscode-java-test",
 		"vscjava.vscode-maven",
 		"vscjava.vscode-spring-boot-dashboard",
-		"vscjava.vscode-spring-initializr",
-		"vscjava.vscode-lombok",
+		"vscjava.vscode-spring-initializr",			
 		"walkme.java-extension-pack",
-		"pivotal.vscode-spring-boot",
-		"redhat.vscode-xml",
-		"editorconfig.editorconfig",
-		"streetsidesoftware.code-spell-checker",
-		"eamodio.gitlens",
-		"sonarsource.sonarlint-vscode"
+		"pivotal.vscode-spring-boot"
       ]
     }
   },
