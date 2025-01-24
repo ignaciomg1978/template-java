@@ -8,9 +8,6 @@
       "version": "21",
       "installMaven": "true",
       "installGradle": "false"
-    },
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
     }
   },
   "customizations": {
