@@ -43,3 +43,8 @@ Para construir y ejecutar la aplicación, usa los siguientes comandos:
 mvn clean install
 mvn spring-boot:run
 ```
+## Abrir navegador
+Accede al plugin Spring Boot Dashboard (El que tiene un icono exagonal)
+En APPS/demo al situar el ratón por encima aparecerá un link (bola del mundo) lo pulsas y te abre el navegador. Añades a la url swagger-ui.html.
+https://nombreNamespace-8080.app.githubdev/swagger-ui.html
+https://redesigned-system-v5rwvp495q4fw56-8080.app.github.dev/swagger-ui.html
