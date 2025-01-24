@@ -33,13 +33,13 @@ Este proyecto es una plantilla básica para aplicaciones Spring Boot, diseñada 
 
 ## Ejecutar los tests
 ```sh
-./mvn test
+mvn test
 ```
 
 ## Cómo Ejecutar
 Para construir y ejecutar la aplicación, usa los siguientes comandos:
 
 ```sh
-./mvn clean install
-./mvn spring-boot:run
+mvn clean install
+mvn spring-boot:run
 ```
