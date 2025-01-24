@@ -10,7 +10,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 @Tag(name = "My first API", description = "Exposes endpoints to interact ...")
 public class Controller {
 
-    @Operation(summary = "Saludo", description = "Saluda a todo el mundo")
+    @Operation(summary = "Greeting", description = "Greetings to everyone")
     @GetMapping("/hello")
     public String hello() {
         return "Hello World";
