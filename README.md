@@ -1,2 +1,2 @@
 # template-java
-Plantilla para crear un namespace preparado para Java Springboot
+Plantilla para crear un codespace preparado para Java Springboot
