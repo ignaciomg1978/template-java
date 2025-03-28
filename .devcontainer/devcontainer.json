@@ -45,7 +45,9 @@
 		"visualstudioexptteam.intellicode-api-usage-examples",		
 		"vscjava.vscode-spring-boot-dashboard",		
 		"vmware.vscode-boot-dev-pack",		
-		"vscjava.vscode-java-pack"
+		"vscjava.vscode-java-pack",
+		"vscode-icons-team.vscode-icons"
+
       ]
     }
   },
