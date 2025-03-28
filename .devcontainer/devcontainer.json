@@ -43,8 +43,7 @@
 		"redhat.vscode-yaml",
 		"ryanluker.vscode-coverage-gutters",
 		"visualstudioexptteam.intellicode-api-usage-examples",		
-		"vscjava.vscode-spring-boot-dashboard",
-		"pivotal.vscode-spring-boot",
+		"vscjava.vscode-spring-boot-dashboard",		
 		"vmware.vscode-boot-dev-pack",		
 		"vscjava.vscode-java-pack"
       ]
